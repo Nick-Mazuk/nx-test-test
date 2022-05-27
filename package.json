@@ -1,0 +1,12 @@
+{
+    "name": "repo",
+    "version": "0.0.0",
+    "type": "module",
+    "private": true,
+    "devDependencies": {
+        "@nrwl/cli": "14.1.4",
+        "@nrwl/devkit": "14.1.4",
+        "@nrwl/workspace": "14.1.4",
+        "nx": "14.1.4"
+    }
+}

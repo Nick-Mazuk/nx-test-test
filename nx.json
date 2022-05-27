@@ -1,0 +1,28 @@
+{
+    "extends": "nx/presets/core.json",
+    "npmScope": "repo",
+    "affected": {
+        "defaultBase": "main"
+    },
+    "cli": {
+        "defaultCollection": "@nrwl/workspace"
+    },
+    "tasksRunnerOptions": {
+        "default": {
+            "options": {}
+        }
+    },
+    "implicitDependencies": {
+        "workspace.json": "*",
+        "package.json": {
+            "dependencies": "*",
+            "devDependencies": "*"
+        },
+        "tsconfig.json": "*",
+        "nx.json": "*"
+    },
+    "workspaceLayout": {
+        "appsDir": "",
+        "libsDir": ""
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "rootDir": ".",
+        "sourceMap": true,
+        "declaration": false,
+        "moduleResolution": "node",
+        "target": "esnext",
+        "module": "esnext",
+        "lib": ["esnext", "dom"],
+        "emitDecoratorMetadata": true,
+        "isolatedModules": true,
+        "experimentalDecorators": true,
+        "importHelpers": true,
+        "forceConsistentCasingInFileNames": true,
+        "downlevelIteration": true,
+        "skipLibCheck": true,
+        "skipDefaultLibCheck": true,
+        "strict": true,
+        "strictNullChecks": true,
+        "resolveJsonModule": true,
+        "baseUrl": ".",
+        "importsNotUsedAsValues": "error",
+        "esModuleInterop": true,
+        "removeComments": true,
+        "allowJs": true,
+        "paths": {
+            "#*": ["./*"],
+            "ts": ["tools/plugins/ts/src/index.ts"]
+        }
+    },
+    "exclude": ["node_modules", "tmp", "dist"]
+}

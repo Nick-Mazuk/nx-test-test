@@ -1,0 +1,11 @@
+{
+    "sourceRoot": "lib/a",
+    "targets": {
+        "test": {
+            "executor": "ts:test"
+        }
+    },
+    "implicitDependencies": [],
+    "tags": [],
+    "projectType": "library"
+}

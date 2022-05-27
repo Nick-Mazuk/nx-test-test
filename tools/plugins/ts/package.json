@@ -1,0 +1,6 @@
+{
+    "name": "ts",
+    "version": "0.0.1",
+    "generators": "./generators.json",
+    "executors": "./executors.json"
+}

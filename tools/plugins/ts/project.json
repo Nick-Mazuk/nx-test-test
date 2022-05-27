@@ -1,0 +1,7 @@
+{
+    "sourceRoot": "tools/plugins/ts",
+    "projectType": "library",
+    "targets": {
+    },
+    "tags": []
+}

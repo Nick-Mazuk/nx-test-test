@@ -1,0 +1,8 @@
+{
+    "version": 2,
+    "projects": {
+        "a": "lib/a",
+        "b": "lib/b",
+        "ts": "tools/plugins/ts"
+    }
+}
